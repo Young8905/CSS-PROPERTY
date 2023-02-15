@@ -1,0 +1,122 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  font-size: 22px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  line-height: 100px;
+  border: 2px solid yellow;
+
+}
+
+.container {
+  background-color: royalblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+
+
+.alice {
+  background-color: royalblue;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.alice .young {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+
+.pizza {
+  background-color: royalblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.pizza .cheese {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.number {
+  background-color: royalblue;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.number .one {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.no {
+  width: 400px;
+  height: 200px;
+  background-color: royalblue;
+  display: flex;
+}
+
+.no .two {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.lee {
+  width: 250px;
+  /* height: 200px; */
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lee .eun {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.jeong {
+  width: 500px;
+  height: 300px;
+  background-color: royalblue;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.jeong .won {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}

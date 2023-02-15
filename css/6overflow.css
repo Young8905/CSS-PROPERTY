@@ -1,0 +1,59 @@
+.parent {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  padding: 20px;
+  overflow: visible;
+}
+
+.child {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: orange;
+}
+
+.alice {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.young {
+  width: 300px;
+  height: 100px;
+  background-color: orange;
+}
+
+.royalblue {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.orange {
+  width: 300px;
+  height: 100px;
+  background-color: orange;
+}
+
+.ley8905 {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.lee {
+  width: 300px;
+  height: 100px;
+  background-color: orange;
+}

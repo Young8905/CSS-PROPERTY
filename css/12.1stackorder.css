@@ -1,0 +1,79 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  font-size: 22px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  line-height: 100px;
+  border: 2px solid yellow;
+
+}
+
+.container {
+  width: 300px;
+  background-color: royalblue;
+  position: relative;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+.container .item:nth-child(1) {
+  position: relative;
+}
+
+.container .item:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.container .item:nth-child(3) {
+
+}
+
+.alice {
+  width: 300px;
+  background-color: royalblue;
+  position: relative;
+}
+
+.alice .young {
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+.alice .young:nth-child(1) {
+  position: relative;
+  z-index: 1;
+}
+
+.alice .young:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.alice .young:nth-child(3) {
+
+}
+
+span {
+  width: 300px;
+  height: 100px;
+  background: orange;
+  font-size: 15px;
+  position: absolute;
+  line-height: 200%;
+}

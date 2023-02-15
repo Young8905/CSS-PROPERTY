@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex container</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/css-reset@0.0.1/reset.min.css">
+  <link rel="stylesheet" href="../css/13.1 flex container.css">
+</head>
+
+<body>
+  <a href="/">처음으로</a>
+  <br /><br />
+  <p>기본적으로 디스플레이는 block 으로 되어있음</p><br /><br />
+  <p>부모요소에 display: flex; 를 입력하여 flex container(부모요소) 와 flex items(자식요소)로구분됨</p><br /><br />
+  <p>display:flex;(블록요소와 같이 컨테이너 정의), inline-flex;(인라인요소같이컨테이너 정의) </p><br /><br /><br /><br />
+
+  <p>* flex-direction * (주 축을 설정)</p><br /><br />
+  <p>row (좌->우), row-reverse (우->좌), column (위->아래), column-reverse (아래->위)</p><br /><br /><br /><br /><br /><br />
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+  <br /><br />
+  <p>row 적용</p>
+  <br /><br />
+  <div class="alice">
+    <div class="young">1</div>
+    <div class="young">2</div>
+    <div class="young">3</div>
+  </div>
+  <br /><br />
+  <p>row-reverse 적용</p>
+  <br /><br />
+  <div class="pizza">
+    <div class="cheese">1</div>
+    <div class="cheese">2</div>
+    <div class="cheese">3</div>
+  </div>
+  <br /><br />
+  <p>column 적용</p>
+  <br /><br />
+  <div class="number">
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+  </div>
+  <br /><br />
+  <p>column-reverse 적용</p>
+  <br /><br /><br /><br />
+  <p>* flex-wrap * (flex items 묶음(줄바꿈)여부</p><br /><br />
+  <p>nowrap(묶음(줄바꿈)없음,기본값), wrap(여러줄로묶음), wrap-reverse(wrap의 반대방향으로묶음)</p><br /><br />
+  <div class="no">
+    <div class="two">1</div>
+    <div class="two">2</div>
+    <div class="two">3</div>
+    <div class="two">4</div>
+    <div class="two">5</div>
+  </div>
+  <br /><br />
+  <p>wrap적용하지 않을경우 상자가 찌그러짐</p>
+  <br /><br />
+  <div class="lee">
+    <div class="eun">1</div>
+    <div class="eun">2</div>
+    <div class="eun">3</div>
+    <div class="eun">4</div>
+    <div class="eun">5</div>
+  </div>
+  <br /><br />
+  <p>wrap적용할경우 줄이 바뀜</p>
+  <br /><br /><br /><br />
+  <p>* justify-content * (수평 주 축의 정렬방법) 아이템의 순서는 바뀌지 않음</p><br /><br />
+  <p>flex-start;(flex items를 시작점으로), flex-end;(flex items를 끝점으로), center(flex items를 가운데)</p><br /><br />
+  <p>space-between;(각 flex item 사이를 균등하게), space-around;(각 flex item의 외부여백을 균등하게)</p>
+  <br /><br /><br /><br /><br /><br />
+  <p>* align-content * (수직 교차축의 여러줄 정렬방법) 아이템의 순서는 바뀌지 않음</p><br /><br />
+  <p>조건: item이 두줄이상, wrap로 묶여있어야함, 여백이 있어야함</p><br /><br />
+  <p>stretch(flex items를 시작점으로,기본)flex-start;(flex items를 시작점으로), flex-end;(flex items를 끝점으로), center(flex items를 가운데)</p><br /><br />
+  <p>space-between;(각 flex item 사이를 균등하게), space-around;(각 flex item의 외부여백을 균등하게)</p>
+  <br /><br /><br /><br /><br /><br />
+  <p>* align-items * (교차축의 한줄 정렬방법) 아이템의 순서는 바뀌지 않음</p><br /><br />
+   <p>stretch(flex items를 교차 축으로 늘림), flex-start;(flex items를 각 줄의 시작점으로), flex-end;(flex items를 각 줄의 끝점으로), center(flex items를 각 줄의 가운데)</p><br /><br />
+  <p>baseline(flex items를 각 줄의 문자기준선에)</p>
+  <br /><br /><br /><br /><br /><br />
+  <div class="jeong">
+    <div class="won">가로 가운데</div>
+    <div class="won">세로 가운데</div>
+    <div class="won">정렬</div>
+
+  </div>
+</body>
+
+</html>

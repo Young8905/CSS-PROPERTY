@@ -1,0 +1,118 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  font-size: 22px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  line-height: 100px;
+  border: 2px solid yellow;
+
+}
+
+.container {
+  width: 500px;
+  background-color: royalblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+.container .item:nth-child(1) {
+  order: 4;
+  }
+  
+  .container .item:nth-child(2) {
+   order: 1;
+  }
+  
+  .container .item:nth-child(4) {
+  order: -1;
+  }
+
+.jeong {
+  width: 500px;
+  height: 300px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jeong .won {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.jeong .won:nth-child(2) {
+  flex-grow: 2;
+}
+.jeong .won:nth-child(3) {
+  flex-grow: 1;
+}
+
+.alice {
+  width: 250px;
+  height: 200px;
+  background-color: royalblue;
+  display: flex;
+}
+
+.alice .young {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.alice .young:nth-child(1) {
+  flex-shrink: 0;
+}
+.alice .young:nth-child(2) {
+  flex-shrink: 0;
+}
+.alice .young:nth-child(3) {
+  flex-shrink: 0;
+}
+
+.number {
+  width: 500px;
+  height: 200px;
+  background-color: royalblue;
+  display: flex;
+}
+
+.number .one {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+  text-align: center;
+}
+
+.number .one:nth-child(1) {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.number .one:nth-child(2) {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.number .one:nth-child(3) {
+  flex-grow: 2;
+  flex-basis: 0;
+}

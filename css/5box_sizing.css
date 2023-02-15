@@ -1,0 +1,31 @@
+
+.items {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.items:first-child {
+  border: 4px solid red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 4px solid red;
+  padding: 20px;
+}
+.alice {
+  width: 52px;
+  height: 52px;
+  background-color: orange;
+  padding: 20px;
+  border: 4px solid red;
+}

@@ -1,0 +1,10 @@
+body {
+  margin: 20px;
+}
+a {
+  display:block;
+  width: 120px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+}

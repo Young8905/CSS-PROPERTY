@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stack order</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/css-reset@0.0.1/reset.min.css">
+  <link rel="stylesheet" href="../css/12.1stackorder.css">
+</head>
+
+<body>
+  <a href="/">처음으로</a>
+  <br /><br />
+  <p>요소 쌓임 순서</p> <br /><br />
+  <p>1. 요소에 position 속성의 값(absolute,relative,fixed)이 있는 경우 위에 쌓임.(기본값 static 제외)</p> <br /><br />
+  <p>2. 1번 조건이 같은경우, z-index 속성의 숫자 값이 높을 수록 위에 쌓임.</p> <br /><br />
+  <p>3. 1번과 2번 조건까지 같은 경우, HTML의 다음 구조일 수록 위에 쌓임</p> <br /><br />
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+  <br /><br />
+  <p>2번상자가 position을 가지고 있어 제일 위에 쌓임, </p> <br /><br />
+  <p>1번상자에도 position을 가지고 있지만 2번이 나중에 쓰여져 있으므로 2번이 위에 쌓임 </p> <br /><br />
+  <div class="alice">
+    <div class="young">1</div>
+    <div class="young">2</div>
+    <div class="young">3</div>
+  </div>
+  <br /><br />
+  <p>1번상자에 z-index값이 들어가서 맨위로 쌓임 </p> <br /><br /> <br /><br />
+  <p>* z-index *</p><br /><br />
+  <p>auto(부모요소와 동일한 쌓임 정도,0), 숫자(숫자가 높을수록 위에 쌓임)</p><br /><br /> <br /><br />
+  <p>* 요소의 display가 변경됨 *</p> <br /><br />
+  <p>position 속성의 값으로 absolute, fixed가 지정된 요소는 display속성이 block으로 변경됨</p> <br /><br /> <br /><br />
+  <span>123(인라인요소)인라인요소로 박스가 없지만 absolute,fixed 포지션으로 block으로 변경가능</span><br /><br />
+
+
+</body>
+
+</html>

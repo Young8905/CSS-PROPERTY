@@ -1,0 +1,58 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  font-size: 22px;
+  
+  color: white;
+  text-decoration: none;
+  text-align: center;
+ 
+  line-height: 100px;
+
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+  background-size: 200px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+  background-size: 50px;
+}
+
+.four {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.five {
+  /* width: 200px; */
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}

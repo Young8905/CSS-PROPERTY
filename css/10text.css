@@ -1,0 +1,26 @@
+a {
+  display: block;
+  /* 인라인요소를 블록요소로 변경, 가로세로 사이즈 변경이 가능함 */
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  font-size: 22px;
+  
+  color: white;
+  text-decoration: none;
+  text-align: center;
+ 
+  line-height: 100px;
+
+}
+
+div {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 24px;
+  text-indent: 50px;
+  line-height: 2;
+}

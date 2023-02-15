@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>deployment</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/css-reset@0.0.1/reset.min.css">
+  <link rel="stylesheet" href="../css/12.0deployment.css">
+</head>
+<body>
+  <a href="/">처음으로</a>
+  <a href="./12.1 stack order.html">요소 쌓임 순서</a>
+  <br /><br />
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+  <br /><br />
+  <p>position: static(기준없음), relative(요소자신), absolute(위치상부모요소기준), fixed(뷰포트기준), sticky(스크롤영역기준); - 위치지정기준</p>
+  <br /><br />
+  <p>top,bottom,left,right: auto(브라우저가 계산), px,em,rem(단위); - 요소의 각 방향별 거리 지정</p>
+  <br /><br />
+  <div class="number">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+  <br /><br />
+  <p>relative - 자기자신의 2번의 공간이 비어있음(잘 사용하지 않음)</p>
+  <br /><br />
+  <div class="alice">
+    <div class="young">1</div>
+    <div class="young">2</div>
+    <div class="young">3</div>
+  </div>
+  <br /><br />
+  <p>relative - 위치상 부모요소에 적어줌</p>
+  <br /><br />
+  <p>absolute - 2번상자요소에 적어줌</p>
+  <br /><br />
+
+  <div class="wrap">
+    <div class="pizza">
+      <div class="cheese">1</div>
+      <div class="cheese">2</div>
+      <div class="cheese">3</div>
+    </div>
+    <br /><br />
+  </div>
+  <p>2번의 부모인 파란박스에 위치지정이 없으므로 그 위의 부모인 빨간박스 기준으로 들어감  </p>
+  <br /><br />
+    
+</body>
+</html>

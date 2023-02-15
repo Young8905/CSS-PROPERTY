@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transition</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/css-reset@0.0.1/reset.min.css">
+  <link rel="stylesheet" href="../css/14 transition.css">
+</head>
+<body>
+  <a href="/">home</a>
+  <br/><br/>
+  <p>* transition:prorerty duration timing-function delay; * 요소의 전환효과를 지정하는 단축 속성</p>
+  <br/>
+  <p>-ex. transition: width 1s 1s </p><br/>
+  <p> transition-property 속성명</p>
+  <br/>
+  <p>- all(모든 속성에 적용,생략가능), 속성이름(ex.width);</p>
+  <br/><br/>
+  <p> transition-duration 지속시간, 단축형으로 작성할때 필수포함 속성</p>
+  <br/>
+  <p>- 0s(전환효과없음), 시간(지속시간s로 지정 ex. .5s)</p>
+  <br/>
+  <p>- width .5s, background-color 2s; 콤마를 사용하여 가로길이, 배경색 2가지 효과를 각각 적용 할 수 있음</p><br/>
+  <p> transition-timing-function 전환효과의 타이밍 함수를 지정</p>
+  <br/>
+  <p>- ease (느리게-빠르게-느리게) </p><br/>
+  <p>- linear (일정하게) </p><br/>
+  <p>- ease-in (느리게-빠르게) </p><br/>
+  <p>- ease-out (빠르게-느리게)</p><br/>
+  <p>- ease-in-out (느리게-빠르게-느리게)</p><br/>
+  <p>- cubic-bezier(n.n.n.n) (자신만의 값을 정의(0~1))</p><br/>
+  <p>- steps(n) (n번 분할된 애니메이션)</p>
+  <br/><br/>
+  <p> transition-delay 전환효과가 몇 초 뒤에 시작할지 대기시간을 지정</p>
+  <br/>
+  <p>- 0s(대기시간 없음,기본설정), 시간(대기시간(s)을 지정)</p>
+  <br/><br/>
+  <div></div>
+</body>
+</html>

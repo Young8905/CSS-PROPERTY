@@ -1,0 +1,27 @@
+.parent {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: royalblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  opacity: 1;
+}
+
+.alice {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: royalblue;
+}
+
+.young {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  opacity: 0.5;
+}
